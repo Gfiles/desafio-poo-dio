@@ -1,29 +1,29 @@
-import br.com.dio.desafio.dominio.Curso;
-import br.com.dio.desafio.dominio.Mentoria;
+import br.com.dio.desafio.dominio.Contents;
+import br.com.dio.desafio.dominio.Course;
+import br.com.dio.desafio.dominio.Mentorship;
 
 import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
 
-        Curso curso1 = new Curso();
-        curso1.setTitulo("Curso Java");
-        curso1.setDescricao("descrição curso java");
-        curso1.setCargaHoraria(8);
+        Course course1 = new Course();
+        course1.setTitle("Curso Java");
+        course1.setDescription("descrição curso java");
+        course1.setStudyHours(8);
 
-        Curso curso2 = new Curso();
-        curso2.setTitulo("Curso Java");
-        curso2.setDescricao("descrição curso java");
-        curso2.setCargaHoraria(8);
+        Course course2 = new Course();
+        course2.setTitle("Curso Java");
+        course2.setDescription("descrição curso java");
+        course2.setStudyHours(8);
 
-        Mentoria mentoria1 = new Mentoria();
-        mentoria1.setTitulo("mentoria de java");
-        mentoria1.setDescricao("decrição mentoria de java");
-        mentoria1.setData(LocalDate.now());
+        Mentorship mentorship1 = new Mentorship();
+        mentorship1.setTitle("mentoria de java");
+        mentorship1.setDescription("decrição mentoria de java");
+        mentorship1.setMentorDate(LocalDate.now());
 
-
-        System.out.println(curso1);
-        System.out.println(curso2);
-        System.out.println(mentoria1);
+        System.out.println(course1);
+        System.out.println(course2);
+        System.out.println(mentorship1);
     }
 }
